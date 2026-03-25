@@ -1,17 +1,17 @@
-
- main {
-      border: 4px solid red;
+main {
+      border: 4px double black;
+      background: white;
     }
 
     main aside {
-      border: 4px solid blue;
+      border: 4px double black;
       width: 350px;
       display: inline-block;
       vertical-align: top
     }
 
     main aside .thumb {
-      border: 4px solid green;
+    border: 4px double black;
     }
 
     main aside .thumb img {
@@ -19,14 +19,40 @@
     }
 
     main aside section {
-      border: 4px solid orange;
-      width: 100%;
+      border: 4px double black;
+      width: 98%;
       height: 400px;
     }
 
     main section {
-      border: 4px solid purple;
-      width: 1200px;
-      height: 930px;
+      border: 4px double black;
+      width: 1511px;
+      height: 935px;
       display: inline-block;
+    }
+
+    .rodape {
+      text-align: center;
+      border: 6px double black;
+      height: 60px;
+      line-height: 60px;
+    }
+
+    .rodape h1 { 
+        margin: 0;
+        display: inline-block; 
+        vertical-align: middle; 
+    }
+
+    .cabecalho {
+      text-align: center;
+      border: 6px double black;
+      height: 60px;
+      line-height: 60px;
+    }
+    
+    .cabecalho h1 { 
+        margin: 0;
+        display: inline-block; 
+        vertical-align: middle; 
     }
