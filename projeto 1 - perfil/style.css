@@ -1,8 +1,8 @@
- main {
-      border: 5px dashed black;
+    main {
       padding: 1em;
       display: grid;
       grid-template-columns: 350px 5fr;
+      background-color: #171f25 ;
     }
     
     main aside .thumb img {
@@ -10,17 +10,22 @@
     }
 
     main aside {
-      border: 5px dashed red;
+      border: 3px solid #752e2b;
       padding: 1em;
     }
     
     main > section {
-      border: 5px dashed purple;
+      border:  3px solid #752e2b;
       padding: 1em;
+      background-color: #CF4F4A;
     }
     img {
       width: 350px;
       height: 400px;
+    }
+
+    .thumb img {
+      border: #752e2b solid 3px;
     }
 
     .galeria {
@@ -30,8 +35,34 @@
     }
 
     .galeria img {
-      border: 3px solid black;
+      border: 5px solid #752e2b;
       width: 100%;
       height: 100%;
       object-fit: cover;
+    }
+
+    .cabecalho {
+      border: 3px solid #752e2b;
+      background-color: #A34541;
+    }
+
+     .cabecalho h1 {
+      text-align: center;
+    }
+
+    .rodape {
+      border: 3px solid #752e2b;
+      background-color: #A34541;
+    }
+
+    .rodape {
+      text-align: center;
+    }
+
+    body {
+      background-color: #171f25;
+    }
+
+    aside {
+      background-color: #B84A44;
     }
