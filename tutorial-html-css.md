@@ -13,9 +13,12 @@ O HTML precisa de certos artifícios para funcionar. O principal deles são as t
   
 Alguns exemplos de tag são:
 
-   - p: usada para definir parágrafos.
-   - hX: usada para definir títulos e subtítulos. X = números de 1 a 6 (h1 é o título principal,
+   - ```p```: usada para definir parágrafos.
+   - ```hX```: usada para definir títulos e subtítulos. X = números de 1 a 6 (h1 é o título principal,
        h2 subtítulo e assim em diante).
-   - body: tudo que está aparente na página.
+   - ```body```: tudo que está aparente na página.
+   - ```strong```: deixar em negrito.
 
-Existem milhares de tags, então é muito difícil saber todas, o recomendável é pesquisar a tag necessária pra oque vocẽ que fazer.
+Existem milhares de tags, incluindo diversas tags para o mesmo uso, então é muito difícil saber todas, o recomendável é pesquisar a tag necessária pra oque vocẽ que fazer no site.
+
+Para criar um site em HTML, é interessante pegar um papel e desenhar
