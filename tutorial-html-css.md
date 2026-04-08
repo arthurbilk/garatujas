@@ -3,13 +3,13 @@
 
 ## O que é HTML?
 
-HTML é uma linguagem de marcação textual, ou seja, de maneira simples, é o que estabelece a estrutura de um site ou texto. O HTML define oque é título, texto, sessão, rodapé e etc num site. Ele não serve pra deixar o site bonito, apenas organizado e estruturado para que todo tipo de pessoa possa usufruir do site, é como se o HTML fosse a estrutura de uma casa, os tijolos, as vigas e o telhado. A estilização (ou seja, a pintura, as janelas e etc) é o CSS.
+HTML - <strong>HyperText Markup Language (Linguagem de Marcação de Hipertexto)</strong> é uma linguagem de marcação textual, ou seja, de maneira simples, é o que estabelece a estrutura de um site ou texto. O HTML define oque é título, texto, sessão, rodapé e etc num site. Ele não serve pra deixar o site bonito, apenas organizado e estruturado para que todo tipo de pessoa possa usufruir do site, é como se o HTML fosse a estrutura de uma casa, os tijolos, as vigas e o telhado. A estilização (ou seja, a pintura, as janelas e etc) é o CSS.
 
 ### Como funciona o HTML?
 
 O HTML precisa de certos artifícios para funcionar. O principal deles são as tags, que são literalmente a tradução (etiquetas), cada tag define oque cada elemento é, elas precisam (em sua maioria) ser abertas e fechadas: 
-  - Abrir tag: ```<nome da tag>```
-  - Fechar tag: ```<nome da tag/>```
+  - Abrir tag: ```<nome-da-tag>```
+  - Fechar tag: ```</nome-da-tag>```
   
 Alguns exemplos de tag são:
 
@@ -21,4 +21,4 @@ Alguns exemplos de tag são:
 
 Existem milhares de tags, incluindo diversas tags para o mesmo uso, então é muito difícil saber todas, o recomendável é pesquisar a tag necessária pra oque vocẽ que fazer no site.
 
-Para criar um site em HTML, é interessante pegar um papel e desenhar
+Para criar um site em HTML, é interessante pegar um papel e desenhar todo o conceito, depois, com o conceito finalizado, identificar cada elemento com sua respectiva tag e traduzir pro HTML.
