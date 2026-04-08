@@ -48,3 +48,7 @@ Agora explicando cada tag:
 
   - ```<html ...>```: é a raiz do documento, se abre aqui e se fecha apenas na última linha.
   - ```...lang="pt-BR"...```: define pro browser o idioma da página, facilitando a acessibilidade e otimizando a busca.
+
+- ```<head>```: dentro dessa tag se localizam diversos dados importantes que não aparecem na página, como: metadados, links para CSS e Java, entre outros.
+
+   - 
