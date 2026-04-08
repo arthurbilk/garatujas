@@ -19,6 +19,6 @@ Alguns exemplos de tag são:
    - ```body```: tudo que está aparente na página.
    - ```strong```: deixar em negrito.
 
-Existem milhares de tags, incluindo diversas tags para o mesmo uso, então é muito difícil saber todas, o recomendável é pesquisar a tag necessária pra oque vocẽ que fazer no site.
+Existem milhares de tags, incluindo diversas tags para o mesmo uso, então é muito difícil saber todas, o recomendável é pesquisar a tag necessária pra oque precisamos fazer no site. Além disso, devemos ter cuidado na hora de escolher as tags de mesma função, pois certas tags são puramente visuais, enquanto outras facilitam o entendimento de usuários com deficiência.
 
 Para criar um site em HTML, é interessante pegar um papel e desenhar todo o conceito, depois, com o conceito finalizado, identificar cada elemento com sua respectiva tag e traduzir pro HTML.
