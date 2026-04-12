@@ -46,9 +46,24 @@ Agora explicando cada tag:
 - ```<!DOCTYPE html>```: marca o tipo de documento, nesse caso HTML5.
 - ```<html lang="pt-BR">```: aqui temos 2 informações importantes, então:
 
-  - ```<html ...>```: é a raiz do documento, se abre aqui e se fecha apenas na última linha.
+  - ```<html ...>  </html>```: é a raiz do documento, se abre aqui e se fecha apenas na última linh.a
   - ```...lang="pt-BR"...```: define pro browser o idioma da página, facilitando a acessibilidade e otimizando a busca.
 
 - ```<head>```: dentro dessa tag se localizam diversos dados importantes que não aparecem na página, como: metadados, links para CSS e Java, entre outros.
 
-   - 
+   - ```<meta charset="UTF-8">```: meta charset define que o grupo de caracteres da página é UTF-8.
+   - ```<title>...</title>```: define o título da página pro browser.
+ 
+- ```<body>...</body>```: todo o corpo da página, tudo que estiver aqui dentro é visto pelo usuário.
+
+### Atributos HTML
+
+Atributos são informações extras que colocamos nas tags HTML para dizer como algo deve funcionar. Exemplos de atributos são:
+
+- ```href```: comumente usado com a tag ```<a>```, ```href``` serve pra definir o endereço do link contido na tag ```<a>```.
+- ```src```: usado com a tag ```<img>```, indica o endereço da imagem para ela aperecer da maneira correta no site.
+- ```alt```: também usado com a tag ```<img>```, ele indica uma alternativa caso o endereço contido em ```src``` seja inválido.
+
+Um exemplo de uso da tag ```<a>``` com o atributo ```href``` é:
+
+<a href="https://www.google.com">Visite o Google</a>
