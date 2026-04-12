@@ -66,4 +66,50 @@ Atributos são informações extras que colocamos nas tags HTML para dizer como 
 
 Um exemplo de uso da tag ```<a>``` com o atributo ```href``` é:
 
+```<a href="https://www.google.com">Visite o Google</a>```
+
+Que na prática fica assim:
+
 <a href="https://www.google.com">Visite o Google</a>
+
+### Lista de todas as tags HTML
+
+Nestes links, podemos encontrar uma lista completa de todas as tags HTML, juntamente com suas descrições e exemplos de uso: [MDN Web Docs - Elementos HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element) ou [W3Schools - HTML Tags](https://www.w3schools.com/TAGS/default.asp).
+
+## Oque é CSS?
+
+CSS - <strong>Cascading Style Sheets (Folhas de Estilo em Cascata)</strong> é uma linguagem de estilo usada para "decorar" um site, ou seja, é um complemento pro HTML. Como dito antes, se o HTML for as paredes e o telhado de uma casa, o CSS é a pintura, as janelas, a porta. Geralmente é feito em um arquivo separado do HTML para ficar mais organizado. Além disso, o CSS é composto por seletores e declarações, onde os seletores escolhemque elemento HTML será estilizado e as declarações indicam como ele vai ser decorado. 
+
+Vamos ver o exemplo abaixo de como inserir o CSS num código HTML:
+
+```
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+   <meta charset="UTF-8">
+   <title>Exemplo de CSS</title>
+   <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <h1>Olá, Mundo!</h1>
+   <p>Este é um exemplo de CSS.</p>
+</body>
+</html>
+```
+
+Nesse exemplo vemos um arquivo HTML básico, com apenas uma diferença (além das tags ```<h1>``` e ```<p>```), dentro da tag ```<head>``` podemos ver um novo elemento: <strong> a tag ```<link>```, que no exemplo tem várias coisas vinculadas: </strong>
+
+- ```rel="stylesheet"```: diz que o link é um arquivo de estilo com CSS.
+- ```href="styles.css"```: indica qual arquivo de estilo é (style.css).
+
+### Sintaxe do CSS
+
+A sintaxe do CSS é composta por regras de estilo, onde cada regra é formada por um seletor e um bloco de declarações. O seletor é usado para selecionar os elementos HTML aos quais as regras de estilo serão aplicadas, enquanto o bloco de declarações define as propriedades de estilo e seus valores. A sintaxe básica do CSS pode ser representada da seguinte forma:
+
+```css
+seletor {
+  propriedade: valor;
+  propriedade: valor;
+  /* ... */
+}
+```
