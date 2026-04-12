@@ -21,6 +21,8 @@ Alguns exemplos de tag são:
 
 Existem milhares de tags, incluindo diversas tags para o mesmo uso, então é muito difícil saber todas, o recomendável é pesquisar a tag necessária pra oque precisamos fazer no site. Além disso, devemos ter cuidado na hora de escolher as tags de mesma função, pois certas tags são puramente visuais, enquanto outras facilitam o entendimento de usuários com deficiência.
 
+As tags podem receber identificações e class através dos atributos ```class``` e ```id```, que já nos aprofundaremos mais tarde.
+
 Para criar um site em HTML, é interessante pegar um papel e desenhar todo o conceito, depois, com o conceito finalizado, identificar cada elemento com sua respectiva tag e traduzir pro HTML.
 
 ### Estrutura básica de um HTML
@@ -104,7 +106,7 @@ Nesse exemplo vemos um arquivo HTML básico, com apenas uma diferença (além da
 
 ### Sintaxe do CSS
 
-A sintaxe do CSS é composta por regras de estilo, onde cada regra é formada por um seletor e um bloco de declarações. O seletor é usado para selecionar os elementos HTML aos quais as regras de estilo serão aplicadas, enquanto o bloco de declarações define as propriedades de estilo e seus valores. A sintaxe básica do CSS pode ser representada da seguinte forma:
+A sintaxe do CSS é formada por regras. Cada regra tem um seletor (que indica qual elemento será afetado) e um bloco entre chaves```{}``` com as propriedades e seus valores, que definem como o elemento selecionado será alterado.
 
 ```css
 seletor {
@@ -113,3 +115,18 @@ seletor {
   /* ... */
 }
 ```
+
+O seletor define qual elemento será estilizado (como tag, classe ou ID). Dentro das chaves `{}`, ficam as propriedades e seus valores, que determinam a aparência. Cada declaração deve ser separada por ponto e vírgula `;`.
+
+### Seletores CSS
+
+Existem alguns tipos de seletores CSS para diversas funções, aqui vão alguns exemplos:
+
+1. Seletor de tipo: para selecionar todos os elementos de um determinado tipo, como `<h1>`, `<p>`, `<a>` etc. Exemplo: `h1 { color: blue; }` aplicaria a cor azul a todos os elementos `<h1>` na página.
+2. Seletor de classe: para selecionar elementos com uma classe específica. Exemplo: `.titulo { font-size: 24px; }` aplicaria um tamanho de fonte de 24 pixels a todos os elementos com a classe "titulo".
+3. Seletor de ID: para selecionar um elemento com um ID específico. Exemplo: `#paragrafo1 { color: red; }` aplicaria a cor vermelha apenas ao elemento com o ID "paragrafo1".
+4. Seletor de atributo: para selecionar elementos com um atributo específico ou um valor de atributo específico. Exemplo: `a[href="#"] { text-decoration: none; }` removeria o sublinhado de todos os links que têm um atributo `href` com o valor "#".
+5. Pseudo-classes: para selecionar elementos com base em seu estado ou posição na hierarquia do documento. Exemplo: `p:first-child { font-weight: bold; }` aplicaria negrito ao primeiro parágrafo dentro de seu elemento pai.
+
+Com isso, vemos a importância de entender a fundo a estrutura e hierarquia de um documento em HTML para o estilizar.
+
