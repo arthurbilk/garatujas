@@ -1,0 +1,114 @@
+:root {
+    --bg: #000;
+    --surface: #111;
+    --text: #fff;
+    --muted: #cfcfcf;
+    --accent: #000;
+    --radius: 8px;
+    --gap: 12px;
+}
+
+* {
+    box-sizing: border-box
+}
+
+html,body {
+    height: 100%;
+    margin: 0
+}
+
+body {
+    display: grid;
+    place-items: center;
+    padding: 24px;
+    background: var(--bg);
+    color: var(--text);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+    width: min(92vw, 520px);
+    background: var(--surface);
+    border: 2px solid #222;
+    padding: 18px;
+    border-radius: var(--radius);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--gap);
+    text-align: left;
+}
+
+/* Header */
+form::before {
+    content: "Formulário — Banda perfeita";
+    grid-column: 1/-1;
+    font-weight: 700;
+    color: var(--text);
+}
+
+/* Field blocks */
+form>div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px
+}
+
+/* Labels and inputs */
+label {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--muted)
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px 10px;
+    border-radius: 6px;
+    border: 1px solid #333;
+    background: #000;
+    color: var(--text);
+    outline: none;
+}
+
+input[type="text"]:focus {
+    border-color: #fff;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.04);
+}
+
+/* Button full width */
+button {
+    grid-column: 1/-1;
+    padding: 10px 12px;
+    border-radius: 6px;
+    border: 1px solid #fff;
+    background: #000;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* Responsive: single column on small screens */
+@media (max-width:600px) {
+    form {
+        grid-template-columns: 1fr;
+        padding: 14px
+    }
+}
+
+/* Utilities */
+.divider {
+    grid-column: 1/-1;
+    height: 1px;
+    background: #222;
+    margin: 8px 0;
+    border-radius: 2px
+}
+
+.spacer {
+    height: 10px
+}
+
+:focus-visible {
+    outline: 2px solid rgba(255, 255, 255, 0.12);
+    outline-offset: 2px
+}
