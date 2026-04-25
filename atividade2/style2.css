@@ -1,0 +1,93 @@
+:root {
+  --fundo: #000000;
+  --spfc: #0f0f0f;
+  --text: #ffffff;
+  --subtxt: #bfbfbf;
+  --radius: 8px;
+  --espaco: 12px;
+  --title: #ff3b3b;
+  --borda: rgba(255,30,30,0.12);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    padding: 24px;
+    background-color: var(--fundo);
+    color: var(--text);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+img {
+    height: 335px;
+    width: 335px;
+    border: 3px solid var(--borda);
+    border-radius: var(--radius);
+}
+
+form {
+    width: min(92vw, 520px);
+    background: var(--spfc);
+    border: 2px solid var(--borda);
+    padding: 18px;
+    border-radius: var(--radius);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--espaco);
+    text-align: left;
+}
+
+form::before {
+    content: "Formulário - Crie sua banda perfeita";
+    grid-column: 1/-1;
+    font-weight: 600;
+    font-size: 30px;
+    color: var(--title);
+}
+
+form>div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+label {
+    color: var(--subtxt);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+input {
+    width: 100%;
+    padding: 8px 10px;
+    border-radius: var(--radius);
+    border: 2px solid #333;
+    background: #000;
+    color: var(--text);
+}
+
+button {
+    grid-column: 1/-1;
+    padding: 10px 12px;
+    border-radius: var(--radius);
+    border: 1px solid #fff;
+    background: var(--title);
+    color: var(--text);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+:focus-visible {
+    outline: 2px solid #333;
+    outline-offset: 2px;
+}
