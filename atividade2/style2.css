@@ -22,7 +22,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     place-items: center;
-    padding: 24px;
+    padding: 20px;
     background-color: var(--fundo);
     color: var(--text);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -39,7 +39,7 @@ form {
     width: min(92vw, 520px);
     background: var(--spfc);
     border: 2px solid var(--borda);
-    padding: 18px;
+    padding: 20px;
     border-radius: var(--radius);
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -48,23 +48,23 @@ form {
 }
 
 form::before {
-    content: "Formulário - Crie sua banda perfeita";
+    content: "Crie sua banda perfeita";
     grid-column: 1/-1;
-    font-weight: 600;
-    font-size: 30px;
+    font-weight: 700;
+    font-size: 35px;
     color: var(--title);
 }
 
 form>div {
     display: flex;
     flex-direction: column;
-    gap: 5px;
 }
 
 label {
     color: var(--subtxt);
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 600;
+    margin-bottom: 2px;
 }
 
 input {
